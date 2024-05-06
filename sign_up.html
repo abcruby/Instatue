@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <link href="instatue.css" rel="stylesheet">
+</head>
+<body id="body_signup">
+    <a href="index.html" id="login_instatue">Instatue</a>
+    <section id="sign_up">
+    <h2 id="Signup">Sign up to play!</h2>
+    <label for="username">Username</label>
+    <input type="text" name="username" id="username" required>
+    <p><label for="password">Password</label>
+    <input type="text" name="password" required></p>
+    
+    <button id="signupButton">sign up</button>
+    <script>
+        document.getElementById("signupButton").addEventListener("click", function() {
+        window.location.href = "login.html";
+        });
+    </script>
+
+<hr>Already have an account? <a href="login.html">Log in</a>
+    </section>
+ 
+</body>
+</html>
