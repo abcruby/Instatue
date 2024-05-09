@@ -286,3 +286,57 @@ footer {
     margin-left: 52%;
     margin-top: -5%;
 }
+
+/* multiple_choice.css */
+#heading_multiple {
+    position: absolute;
+    margin-left: 40%;
+}
+
+/* short_answer.css */
+#heading_short {
+    position: absolute;
+    margin-left: 40%;
+}
+
+/* teacher_list.css */
+#teacher_table {
+    margin-left: 20%;
+    margin-top: 10%;
+    height: 300px;
+    width: 600px;
+    text-align: center;
+}
+
+#heading_teacher_list{
+    position: absolute;
+    margin-left: 48%;
+    margin-top: 3%;
+}
+
+
+#heading_student_list{
+    position: absolute;
+    margin-left: 48%;
+    margin-top: 3%;
+}
+
+
+#heading_unit{
+    position: absolute;
+    margin-left: 46%;
+    margin-top: 8%;
+}
+#unit_table{
+    margin-left: 20%;
+    margin-top: 15%;
+    height: 200px;
+    width: 400px;
+    text-align: center;
+}
+
+#unit_button{
+    position: absolute;
+    margin-left: 60%;
+    margin-top: 9%;
+}
